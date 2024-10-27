@@ -1,0 +1,59 @@
+body {
+  font-family: "Poppins";
+  background: #1E252B;
+}
+
+p, h1, h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.main-header {
+  width: 1440px;
+  height: 48px;
+  margin-bottom: 104px;
+}
+
+.main-nav {
+  width: 1224px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  gap: 257px;
+}
+
+.navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 431px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation__item {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
+.antools_logo {
+  display: flex;
+  gap: 12px;
+  width: 140px;
+  height: 38px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+p.logo-text {
+  font-size: 22px;
+  font-weight: 600;
+  height: 33px;
+}/*# sourceMappingURL=main.css.map */
