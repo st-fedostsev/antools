@@ -4,7 +4,7 @@ body {
   width: 1440px;
 }
 
-p, h1, h2 {
+p, h1, h2, h3, h4 {
   padding: 0;
   margin: 0;
 }
@@ -121,7 +121,7 @@ section.hero p.description {
   color: rgba(255, 255, 255, 0.55);
   font-family: Poppins;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 30px;
   width: 487px;
   margin-bottom: 60px;
@@ -237,8 +237,8 @@ footer.main-footer .brands-logo {
   gap: 107px;
   margin: 0 83px 0 82px;
 }
-footer.main-footer .circle-glare {
-  z-index: 1;
+footer.main-footer .circle-glare-red {
+  z-index: 2;
   position: absolute;
   background: rgba(255, 72, 66, 0.4);
   top: -80px;
@@ -247,4 +247,142 @@ footer.main-footer .circle-glare {
   border-bottom-right-radius: 100px;
   width: 159px;
   height: 159px;
+}
+
+div.catalog-tools {
+  width: 1224px;
+  display: flex;
+  justify-content: space-between;
+  row-gap: 100px;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+div.catalog-tools__item {
+  width: 392px;
+  height: 294px;
+  border-radius: 15px;
+}
+
+.catalog-tools-wrapper {
+  padding: 33px;
+  display: flex;
+  flex-direction: column;
+  width: 326px;
+  height: 228px;
+}
+.catalog-tools-wrapper p.availability {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgba(255, 165, 55, 0.55);
+}
+.catalog-tools-wrapper .tool-head {
+  display: flex;
+  margin-bottom: 30px;
+}
+.catalog-tools-wrapper p.description-tool {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.catalog-tools-wrapper .tool-header {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.78);
+}
+.catalog-tools-wrapper .tool-logo {
+  margin-right: 30px;
+}
+.catalog-tools-wrapper .interaction {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.catalog-tools-wrapper .visit {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(30, 37, 43);
+  border-radius: 8px;
+  width: 106px;
+  height: 42px;
+  align-items: center;
+}
+.catalog-tools-wrapper .visit .visit-text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.55);
+}
+.catalog-tools-wrapper .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.active {
+  overflow: hidden;
+  position: relative;
+  border: 2px solid;
+  top: -20px;
+  border-image-source: linear-gradient(118.49deg, rgba(255, 255, 255, 0.08) -2.11%, rgba(255, 255, 255, 0) 28.55%, rgba(255, 255, 255, 0.05) 44.69%, rgba(255, 255, 255, 0) 96.78%);
+  border-image-slice: 1;
+  border-image-width: 2px;
+  background: linear-gradient(rgba(40, 48, 54, 0.6), rgba(40, 48, 54, 0.6) 0) padding-box, linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)) border-box;
+}
+div.active .interaction .interaction-item {
+  width: 42px;
+  height: 42px;
+}
+div.active .visit {
+  background-color: rgb(255, 110, 48);
+  border-radius: 8px;
+  width: 118px;
+  height: 48px;
+  text-align: center;
+}
+div.active .visit p.visit-text {
+  color: rgb(255, 255, 255);
+}
+div.active .interaction .interaction-item-like {
+  border-radius: 8px;
+  background-color: rgb(40, 48, 54);
+}
+div.active p.description-tool {
+  color: rgba(255, 255, 255, 0.78);
+}
+div.active p.availability {
+  color: rgb(255, 165, 55);
+}
+
+.circle-glare-orange {
+  z-index: 1;
+  position: absolute;
+  background: rgba(255, 110, 48, 0.6);
+  box-shadow: 0 0 20px rgba(255, 110, 48, 0.6);
+  top: -15px;
+  right: 16px;
+  filter: blur(40px);
+  border-radius: 100px;
+  width: 65px;
+  height: 65px;
+}
+
+.load-more {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 184px;
+  height: 64px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.button-load-more {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: rgb(255, 110, 48);
 }/*# sourceMappingURL=main.css.map */
