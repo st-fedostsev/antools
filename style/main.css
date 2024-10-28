@@ -8,18 +8,20 @@ p, h1, h2 {
   margin: 0;
 }
 
-.main-header {
+.page-header {
+  display: flex;
   width: 1440px;
   height: 48px;
   margin-bottom: 104px;
+  align-items: center;
 }
 
 .main-nav {
+  margin: 26px 105px 0 111px;
   width: 1224px;
   height: 38px;
   display: flex;
   align-items: center;
-  gap: 257px;
 }
 
 .navigation {
@@ -29,6 +31,7 @@ p, h1, h2 {
   width: 431px;
   height: 24px;
   display: flex;
+  margin-right: 193px;
   justify-content: space-between;
 }
 .navigation__item {
@@ -46,6 +49,7 @@ p, h1, h2 {
   height: 38px;
   justify-content: space-between;
   align-items: center;
+  margin-right: 257px;
 }
 
 p {
@@ -56,4 +60,32 @@ p.logo-text {
   font-size: 22px;
   font-weight: 600;
   height: 33px;
+}
+
+.authentication {
+  display: flex;
+  gap: 41px;
+  align-items: center;
+}
+.authentication__item {
+  font-weight: 600;
+}
+.authentication__item_login {
+  color: rgba(255, 255, 255, 0.78);
+}
+.authentication__item_sign-up {
+  background-color: rgb(255, 110, 48);
+  border-radius: 8px;
+  width: 118px;
+  height: 48px;
+  text-align: center;
+}
+.authentication__item_sign-up .sign-up {
+  font-weight: 600;
+  color: rgb(253, 245, 255);
+  padding: 12px 28px;
+}
+
+.page-main {
+  margin-left: 111px;
 }/*# sourceMappingURL=main.css.map */

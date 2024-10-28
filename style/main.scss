@@ -8,18 +8,20 @@ body {
     margin: 0;
   }
   
-  .main-header {
+  .page-header {
+    display: flex;
     width: 1440px;
     height: 48px;
     margin-bottom: 104px;
+    align-items: center;
   }
   
   .main-nav {
+    margin: 26px 105px 0 111px;
     width: 1224px;
     height: 38px;
     display: flex;
     align-items: center;
-    gap: 257px;
   }
   
   .navigation {
@@ -29,6 +31,7 @@ body {
     width: 431px;
     height: 24px;
     display: flex;
+    margin-right: 193px;
     justify-content: space-between;
 
     &__item {
@@ -47,6 +50,7 @@ body {
   height: 38px;
   justify-content: space-between;
   align-items: center;
+  margin-right: 257px;
 }
   
 p {
@@ -57,4 +61,38 @@ p.logo-text {
   font-size: 22px;
   font-weight: 600;
   height: 33px;
+}
+
+
+.authentication{
+  display: flex;
+  gap: 41px;
+  align-items: center;
+
+  &__item{
+    font-weight: 600;
+
+    &_login{
+      color: rgba(255, 255, 255, 0.78);
+      
+    }
+
+    &_sign-up{
+      background-color:rgba(255, 110, 48, 1);
+      border-radius: 8px;
+      width: 118px;
+      height: 48px;
+      text-align: center;
+      .sign-up{
+        font-weight: 600;
+        color: rgba(253, 245, 255, 1);
+        padding: 12px 28px;
+      }
+    }
+  }
+}
+
+  
+.page-main{
+  margin-left: 111px;
 }
