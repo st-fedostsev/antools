@@ -109,11 +109,12 @@ p.logo-text {
   margin-left: 111px;
 }
 
-.hero{
+section.hero{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 200px;
 
-  h1{
+  h1.title{
     padding-top: 46px;
     width: 600px;
     color: rgba(255, 255, 255, 0.9);
@@ -207,4 +208,72 @@ div.social{
   width: 190px;
   height: 58px;
   gap: 8px;
+}
+
+section.tools{
+  width: 1224px;
+  margin-bottom: 200px;
+  h2.subtitle{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62.4px;
+    margin-bottom: 25px;
+  }
+
+  p.description{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.55);
+    width: 427px;
+    display: flex;
+    margin: 0 auto 90px auto;
+  }
+}
+
+footer.main-footer{
+  overflow: hidden;
+  position: relative;
+  width: 1224px;
+  margin: 0 108px 48px 108px;
+  height: 253px;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  background: linear-gradient(rgba(40, 48, 54, 1), rgba(40, 48, 54, 1) 0) padding-box,
+      linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)) border-box;
+
+  h3.subsubtitle{
+    font-size: 24px;
+    display: flex;
+    width: 367px;
+    margin: 55px auto;
+    text-align: center;
+    font-weight: 500;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .brands-logo{
+    display: flex;
+    gap: 107px;
+    margin: 0 83px 0 82px;
+  }
+
+
+  .circle-glare{
+    z-index: 1;
+    position: absolute;
+    background: rgba(255, 72, 66, 0.4);
+    top: -80px;
+    left: -80px;
+    filter: blur(50px);
+    
+    border-bottom-right-radius: 100px;
+    
+    width: 159px;
+    height: 159px;
+  }
 }

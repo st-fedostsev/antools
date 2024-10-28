@@ -99,11 +99,12 @@ p.logo-text {
   margin-left: 111px;
 }
 
-.hero {
+section.hero {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 200px;
 }
-.hero h1 {
+section.hero h1.title {
   padding-top: 46px;
   width: 600px;
   color: rgba(255, 255, 255, 0.9);
@@ -113,10 +114,10 @@ p.logo-text {
   text-align: left;
   margin-bottom: 30px;
 }
-.hero h1 .header-span {
+section.hero h1.title .header-span {
   color: rgb(255, 110, 48);
 }
-.hero p.description {
+section.hero p.description {
   color: rgba(255, 255, 255, 0.55);
   font-family: Poppins;
   font-size: 18px;
@@ -125,7 +126,7 @@ p.logo-text {
   width: 487px;
   margin-bottom: 60px;
 }
-.hero div.search {
+section.hero div.search {
   display: flex;
   align-items: center;
   margin-bottom: 110px;
@@ -135,7 +136,7 @@ p.logo-text {
   border-radius: 15px;
   background: linear-gradient(rgb(40, 48, 54), rgb(40, 48, 54) 0) padding-box, linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)) border-box;
 }
-.hero div.search__inner {
+section.hero div.search__inner {
   padding: 8px 11.4px 8px 18.06px;
   width: 468.56px;
   height: 48px;
@@ -143,12 +144,12 @@ p.logo-text {
   justify-content: flex-start;
   align-items: center;
 }
-.hero div.search__inner .search-photo {
+section.hero div.search__inner .search-photo {
   width: 24px;
   height: 24px;
   margin-right: 13.04px;
 }
-.hero div.search__inner .search-text {
+section.hero div.search__inner .search-text {
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
@@ -158,7 +159,7 @@ p.logo-text {
   display: inline-block;
   margin-right: 111px;
 }
-.hero div.search__inner .search-text::before {
+section.hero div.search__inner .search-text::before {
   content: "";
   background: rgb(131, 122, 147);
   border-radius: 1.5px;
@@ -168,14 +169,14 @@ p.logo-text {
   left: 0.2px;
   margin-top: 2.5px;
 }
-.hero div.search__inner_button {
+section.hero div.search__inner_button {
   background-color: rgb(255, 110, 48);
   border-radius: 8px;
   width: 130.43px;
   height: 48px;
   text-align: center;
 }
-.hero div.search__inner_button .search_button {
+section.hero div.search__inner_button .search_button {
   font-weight: 600;
   color: rgb(253, 245, 255);
   padding: 12px 28px;
@@ -186,4 +187,64 @@ div.social {
   width: 190px;
   height: 58px;
   gap: 8px;
+}
+
+section.tools {
+  width: 1224px;
+  margin-bottom: 200px;
+}
+section.tools h2.subtitle {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62.4px;
+  margin-bottom: 25px;
+}
+section.tools p.description {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.55);
+  width: 427px;
+  display: flex;
+  margin: 0 auto 90px auto;
+}
+
+footer.main-footer {
+  overflow: hidden;
+  position: relative;
+  width: 1224px;
+  margin: 0 108px 48px 108px;
+  height: 253px;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  background: linear-gradient(rgb(40, 48, 54), rgb(40, 48, 54) 0) padding-box, linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)) border-box;
+}
+footer.main-footer h3.subsubtitle {
+  font-size: 24px;
+  display: flex;
+  width: 367px;
+  margin: 55px auto;
+  text-align: center;
+  font-weight: 500;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.8);
+}
+footer.main-footer .brands-logo {
+  display: flex;
+  gap: 107px;
+  margin: 0 83px 0 82px;
+}
+footer.main-footer .circle-glare {
+  z-index: 1;
+  position: absolute;
+  background: rgba(255, 72, 66, 0.4);
+  top: -80px;
+  left: -80px;
+  filter: blur(50px);
+  border-bottom-right-radius: 100px;
+  width: 159px;
+  height: 159px;
 }/*# sourceMappingURL=main.css.map */
